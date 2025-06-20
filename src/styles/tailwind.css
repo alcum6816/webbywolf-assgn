@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f8f8;
+    --bg-accent: #0445d1;
+    --bg-accent-light: #155ada;
+    --bg-accent-dark: #1958ac;
+    --bg-light-blue: #80afed;
+    --bg-gray-light: #f1f1f1;
+    --bg-gray-lighter: #f1f5f9;
+    --bg-gray-lightest: #f3f3f3;
+    --bg-neutral: #f4f4f4;
+    --bg-off-white: #fafafa;
+    --bg-gray: #dbdbdb;
+    --bg-black: #000000;
+    --bg-white-transparent: #ffffff99;
+
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #222222;
+    --text-accent: #0445d1;
+    --text-accent-dark: #033798;
+    --text-accent-darker: #1958ac;
+    --text-dark: #0e0d0d;
+    --text-slate: #0f172a;
+    --text-gray: #111111;
+    --text-gray-light: #3b3b3b;
+    --text-gray-medium: #475569;
+    --text-gray-dark: #6f6f6f;
+    --text-white: #ffffff;
+
+    /* Footer Colors */
+    --footer-bg: #171e2b;
+  }
+}
+
+@layer utilities {
+  /* Background utilities */
+  .bg-primary {
+    background-color: var(--bg-primary);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
+  .bg-accent {
+    background-color: var(--bg-accent);
+  }
+  .bg-accent-light {
+    background-color: var(--bg-accent-light);
+  }
+  .bg-accent-dark {
+    background-color: var(--bg-accent-dark);
+  }
+  .bg-light-blue {
+    background-color: var(--bg-light-blue);
+  }
+  .bg-gray-light {
+    background-color: var(--bg-gray-light);
+  }
+  .bg-gray-lighter {
+    background-color: var(--bg-gray-lighter);
+  }
+  .bg-gray-lightest {
+    background-color: var(--bg-gray-lightest);
+  }
+  .bg-neutral {
+    background-color: var(--bg-neutral);
+  }
+  .bg-off-white {
+    background-color: var(--bg-off-white);
+  }
+  .bg-gray {
+    background-color: var(--bg-gray);
+  }
+  .bg-black {
+    background-color: var(--bg-black);
+  }
+  .bg-white-transparent {
+    background-color: var(--bg-white-transparent);
+  }
+
+  /* Text utilities */
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-accent {
+    color: var(--text-accent);
+  }
+  .text-accent-dark {
+    color: var(--text-accent-dark);
+  }
+  .text-accent-darker {
+    color: var(--text-accent-darker);
+  }
+  .text-dark {
+    color: var(--text-dark);
+  }
+  .text-slate {
+    color: var(--text-slate);
+  }
+  .text-gray {
+    color: var(--text-gray);
+  }
+  .text-gray-light {
+    color: var(--text-gray-light);
+  }
+  .text-gray-medium {
+    color: var(--text-gray-medium);
+  }
+  .text-gray-dark {
+    color: var(--text-gray-dark);
+  }
+  .text-white {
+    color: var(--text-white);
+  }
+
+  /* Footer utilities */
+  .bg-footer {
+    background-color: var(--footer-bg);
+  }
+}
